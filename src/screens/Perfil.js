@@ -143,7 +143,7 @@ export default function Perfil() {
   // Atualizar nome no perfil
   const salvarPerfil = async () => {
     if (!nome.trim()) {
-      Alert.alert('Nome obrigatório', 'Por favor, insira seu nome.');
+      Alert.alert('Nome obrigatório', 'Por favor, insira seu nome!');
       return;
     }
 
